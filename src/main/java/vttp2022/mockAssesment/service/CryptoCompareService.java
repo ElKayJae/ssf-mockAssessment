@@ -27,8 +27,6 @@ public class CryptoCompareService {
     
     public Optional<Crypto> getCurrentPrice(Query query){
 
-        // String apiKey = "2dabbc4c632bee3a0bcbe457b3a9f83a5875269ec1fb0f81f6e862920428a660";
-
         
         String cryptoPriceUrl = UriComponentsBuilder.fromUriString(SINGLE_SYMBOL_PRICE)
                                 .queryParam("fsym", query.getFsym() )
