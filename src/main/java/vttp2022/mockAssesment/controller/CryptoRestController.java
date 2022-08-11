@@ -22,7 +22,7 @@ import vttp2022.mockAssesment.model.Query;
 import vttp2022.mockAssesment.service.CryptoCompareService;
 
 @RestController
-@RequestMapping(path = "/", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE )
+@RequestMapping(path = "/", produces = MediaType.APPLICATION_JSON_VALUE )
 public class CryptoRestController {
     private static final Logger logger = LoggerFactory.getLogger(CryptoRestController.class);
     
